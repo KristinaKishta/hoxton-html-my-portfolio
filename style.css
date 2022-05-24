@@ -41,9 +41,27 @@ h2 {
   justify-content: space-between;
 }
 
-.full-stuck {
-  border: 1.5px solid gray;
-  background-color: #242525;
+.image {
+  width: 100%;
+}
+
+.full-stack {
+  background-color: #35382e;
+  color: white;
+  width: 70vw;
+  max-width: 500px;
+  justify-self: center;
+  border-radius: 2px;
+  padding: 1rem;
+  margin-left: 470px;
+  display: grid;
+  gap: 0.5rem;
+  align-self: center;
+}
+
+.full-stack__title {
+  text-align: center;
+  color: #face00;
 }
 
 highligh {
@@ -63,6 +81,10 @@ highligh {
   justify-content: space-between;
 }
 
+.top-element {
+  align-items: center;
+}
+
 main {
   background-color: rgb(243, 231, 231);
 }
@@ -72,7 +94,7 @@ main {
 }
 
 .pro {
-  margin-left: 400px;
+  margin-left: 650px;
   padding: 20px;
 }
 
@@ -96,6 +118,18 @@ main {
 .ios-stopwatch {
   border: 1.5px solid gray;
   background-color: white;
+}
+
+.im1 {
+  padding-left: 150px;
+}
+
+.im2 {
+  width: 100%;
+}
+
+.im3 {
+  padding-left: 200px;
 }
 
 footer {
@@ -131,4 +165,15 @@ footer {
 .back {
   margin-left: 450px;
   color: white;
+  background-color: #242525;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #242525;
+  color: white;
+  grid-area: footer;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
 }
+
