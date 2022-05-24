@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  font-family: sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h3 {
+  color: hsl(0, 92%, 66%);
+}
+
+header {
+  background-color: hsl(0, 92%, 66%);
+}
+
+header nav ul {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 1rem;
+}
+
+h2 {
+  color: yellow;
+}
+
+.kri {
+  padding: 1rem;
+  background-color: #242525;
+  color: white;
+  grid-area: header;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.full-stuck {
+  border: 1.5px solid gray;
+  background-color: #242525;
+}
+
+highligh {
+  color: aqua;
+}
+
+.item {
+  margin-right: 1rem;
+}
+
+.kristina {
+  grid-area: header;
+  padding: 0.2rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  background-color: rgb(243, 231, 231);
+}
+
+.go-to-project {
+  background-color: hsl(0, 92%, 66%);
+}
+
+.pro {
+  margin-left: 400px;
+  padding: 20px;
+}
+
+.projects {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.swine-meeper {
+  border: 1.5px solid gray;
+  background-color: white;
+}
+
+.lottery-picker {
+  border: 1.5px solid gray;
+  background-color: white;
+}
+
+.ios-stopwatch {
+  border: 1.5px solid gray;
+  background-color: white;
+}
+
+footer {
+  background-color: rgb(97, 184, 235);
+}
+
+.exp {
+  margin-left: 450px;
+}
+
+.experience {
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(20px, 1fr));
+  gap: 1rem;
+  margin-left: 250px;
+  padding-right: 200px;
+}
+
+.a {
+  border: 1.5px solid gray;
+  background-color: whitesmoke;
+}
+
+.b {
+  margin-left: 90px;
+}
+
+.c {
+  margin-left: 90px;
+}
+
+.back {
+  margin-left: 450px;
+  color: white;
+}
